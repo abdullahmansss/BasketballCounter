@@ -1,4 +1,4 @@
-package com.example.abdullah_mansour.basketballcounter;
+package bedo.ball.abdullah_mansour.basket;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,10 +13,15 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.abdullah_mansour.basketballcounter.DB.AppDatabase;
-import com.example.abdullah_mansour.basketballcounter.DB.MatchesEntry;
+import com.example.abdullah_mansour.basket.R;
+
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 import java.util.Date;
+
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 public class Game extends AppCompatActivity {
 
@@ -306,6 +311,10 @@ public class Game extends AppCompatActivity {
 
                 Intent n = new Intent(Game.this, MainActivity.class);
                 startActivity(n);
+    }
+
+    @Override
+    public void onBackPressed() {
     }
 
     @Override

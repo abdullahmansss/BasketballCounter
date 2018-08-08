@@ -1,4 +1,4 @@
-package com.example.abdullah_mansour.basketballcounter.DB;
+package bedo.ball.abdullah_mansour.basket.DB;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;

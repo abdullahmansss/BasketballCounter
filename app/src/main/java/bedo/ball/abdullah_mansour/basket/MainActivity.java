@@ -1,4 +1,4 @@
-package com.example.abdullah_mansour.basketballcounter;
+package bedo.ball.abdullah_mansour.basket;
 
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
@@ -18,10 +18,17 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.abdullah_mansour.basketballcounter.DB.AppDatabase;
-import com.example.abdullah_mansour.basketballcounter.DB.MatchesEntry;
+import com.example.abdullah_mansour.basket.R;
+
+import bedo.ball.abdullah_mansour.basket.*;
+
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 import java.util.List;
+
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 import static android.support.v7.widget.DividerItemDecoration.VERTICAL;
 

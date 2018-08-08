@@ -1,4 +1,4 @@
-package com.example.abdullah_mansour.basketballcounter;
+package bedo.ball.abdullah_mansour.basket;
 
 import org.junit.Test;
 

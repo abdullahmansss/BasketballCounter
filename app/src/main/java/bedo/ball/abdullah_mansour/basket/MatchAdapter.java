@@ -1,4 +1,4 @@
-package com.example.abdullah_mansour.basketballcounter;
+package bedo.ball.abdullah_mansour.basket;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
@@ -9,11 +9,17 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.abdullah_mansour.basketballcounter.DB.MatchesEntry;
+import com.example.abdullah_mansour.basket.R;
+
+import bedo.ball.abdullah_mansour.basket.*;
+
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
+
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchViewHolder> {
 

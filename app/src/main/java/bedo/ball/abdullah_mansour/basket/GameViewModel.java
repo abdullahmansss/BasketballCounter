@@ -1,10 +1,13 @@
-package com.example.abdullah_mansour.basketballcounter;
+package bedo.ball.abdullah_mansour.basket;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.ViewModel;
 
-import com.example.abdullah_mansour.basketballcounter.DB.AppDatabase;
-import com.example.abdullah_mansour.basketballcounter.DB.MatchesEntry;
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
+
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.MatchesEntry;
 
 public class GameViewModel extends ViewModel {
 

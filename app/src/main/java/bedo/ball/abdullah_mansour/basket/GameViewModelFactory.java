@@ -1,9 +1,11 @@
-package com.example.abdullah_mansour.basketballcounter;
+package bedo.ball.abdullah_mansour.basket;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 
-import com.example.abdullah_mansour.basketballcounter.DB.AppDatabase;
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
+
+import bedo.ball.abdullah_mansour.basket.DB.AppDatabase;
 
 public class GameViewModelFactory extends ViewModelProvider.NewInstanceFactory {
 
