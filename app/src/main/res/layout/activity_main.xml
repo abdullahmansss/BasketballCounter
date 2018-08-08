@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="8dp"
+    android:orientation="vertical"
+    >
+
+            <EditText
+                android:id="@+id/first_team_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:hint="Enter First Team Name"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/rsz_1rsz_team"
+                android:drawablePadding="20dp"
+                />
+
+            <EditText
+                android:id="@+id/second_team_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:hint="Enter Second Team Name"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:drawableLeft="@drawable/rsz_1rsz_team"
+                android:drawablePadding="20dp"
+                />
+
+        <Button
+            android:id="@+id/new_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:text="start game"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@drawable/rsz_ball3"
+            android:drawablePadding="-50dp"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/history_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+</LinearLayout>
